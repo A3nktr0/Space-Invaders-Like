@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./assets/img/enemy.ico" type="image/x-icon">
+    <title>Space Invaders</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="overlay-content">
+            <p>Commands:</p>
+            <br>
+            <ul>
+                <li>&#8592; / &#8594; to move</li>
+                <li>'SPACE' to shoot</li>
+                <li>'P' to pause</li>
+                <li>'ESC' to restart</li>
+                <li>'M' toggle theme</li>
+            </ul>
+
+        </div>
+    </div>
+    <h1>Space Invaders</h1>
+    <h5>Timer: <span id="clock">0:00</span></h5>
+    <canvas id="game"></canvas>
+</body>
+</html>
+
+<script type="module" src="./js/main.js"></script>
